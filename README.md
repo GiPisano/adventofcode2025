@@ -64,3 +64,25 @@ Because the dial points at ```0``` a total of three times during this process, t
 
 Analyze the rotations in your attached document. What's the actual password to open the door?
 
+
+
+### Pseudocode
+
+```
+position -> 50
+dial -> range 0–99 (circular)
+
+direction -> L || R
+steps -> number of clicks
+
+read the input instructions from input.txt
+L means rotate left (subtract)
+R means rotate right (add)
+
+if the dial reaches 99 and you add 1, it wraps to 0
+if the dial reaches 0 and you subtract 1, it wraps to 99
+
+count how many times position == 0
+```
+
+

@@ -26,3 +26,16 @@ You'll need to find the largest possible joltage each bank can produce. In the a
 The total output joltage is the sum of the maximum joltage from each bank, so in this example, the total output joltage is `98` + `89` + `78` + `92` = `357`.
 
 There are many batteries in front of you. Find the maximum joltage possible from each bank; what is the total output joltage?
+
+
+### Pseudocode
+
+```
+
+- leggere file input.txt
+- dividere l’input in righe (ogni riga è un banco di batterie)
+- controlla tutte le combinazioini possibili tra numeri 
+- prendi il numero piu altro e salvalo
+-somma tutti i valori piu alti
+
+```

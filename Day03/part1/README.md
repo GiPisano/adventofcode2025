@@ -32,10 +32,9 @@ There are many batteries in front of you. Find the maximum joltage possible from
 
 ```
 
-- leggere file input.txt
-- dividere l’input in righe (ogni riga è un banco di batterie)
-- controlla tutte le combinazioini possibili tra numeri 
-- prendi il numero piu altro e salvalo
--somma tutti i valori piu alti
-
+- Read the file input.txt
+- Split the input into lines (each line represents a battery bank)
+- Check all possible combinations of numbers
+- Take the highest number and save it
+- Sum all the highest values
 ```
